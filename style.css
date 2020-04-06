@@ -21,9 +21,19 @@ body {
 	border-radius: 50px;
 }
 
+.menuenlaces {
+	overflow: auto;
+	list-style: none;
+}
+
 .menuenlaces li > a {
 	color: #336392;
 	font-size: x-large;
+}
+
+[primer|=enlace], [segundo|=enlace], [tercer|=enlace] {
+	float: left;
+	width: 33%;
 }
 
 #enlace1 {
@@ -72,16 +82,6 @@ body {
 	float: right;
 }
 
-.menuenlaces {
-	overflow: auto;
-	list-style: none;
-}
-
-[primer|=enlace], [segundo|=enlace], [tercer|=enlace] {
-	float: left;
-	width: 33%;
-}
-
 .footer {
 	width: 100%;
 	float:right;
@@ -108,4 +108,8 @@ div > a > img {
 	height: 100px;
 	width: 100px;
 	border-radius: 50px;
+}
+
+div > a > img:hover{
+	transform: scale(1.5);
 }
