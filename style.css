@@ -1,0 +1,111 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #92CBC4;
+}
+
+#cabecera {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	color: #336392;
+	background-color: #A38171;
+	font-size: 40px;
+	padding: 5px;
+	border-radius: 50px;
+}
+
+.menu {
+	text-align: center;
+	background-color: #A38171;
+	color:  #336392;
+	border-radius: 50px;
+}
+
+.menuenlaces li > a {
+	color: #336392;
+	font-size: x-large;
+}
+
+#enlace1 {
+	overflow: auto;
+}
+
+#enlace2, #enlace3, [primer^=texto] {
+	color: #A38171;
+    font-size: x-large;
+    text-align: center;
+}
+
+[texto*=derecha] {
+	float: right;
+	width: 50%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.ballenazul {
+	color: #A38171;
+	font-size: xx-large;
+}
+
+[imagen*=izquierda] {
+	float: left;
+}
+
+.imagen {
+	width: 45%;
+	margin-top: 100px;
+}
+
+#enlace3 {
+	overflow: auto;
+}
+
+[texto*=izquierda] {
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+[imagen*=derecha] {
+	float: right;
+}
+
+.menuenlaces {
+	overflow: auto;
+	list-style: none;
+}
+
+[primer|=enlace], [segundo|=enlace], [tercer|=enlace] {
+	float: left;
+	width: 33%;
+}
+
+.footer {
+	width: 100%;
+	float:right;
+  	margin: 10px 5px 10px 5px;
+	background-color: #A38171;
+	border-radius: 50px;
+}
+
+footer > div {
+	float: left;
+	width: 33%;
+	height: auto;
+}
+
+footer > div > p {
+	text-align: center;
+	margin-top: 30px;
+	color: #92CBC4;
+	font-size: large;
+}
+
+div > a > img {
+	float: right;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
